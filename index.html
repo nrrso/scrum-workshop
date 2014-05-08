@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+
+	<title>SCRUM Workshop</title>
+
+	<!-- Required stylesheet -->
+	<link rel="stylesheet" href="core/deck.core.css">
+
+	<!-- Extension CSS files go here. Remove or add as needed. -->
+	<!--<link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+	<link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+	<link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+	<link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">-->
+
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" media="screen" href="themes/style/simple.css">
+
+  	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  	<link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  	<!-- Basic black and white print styles -->
+  	<link rel="stylesheet" media="print" href="core/print.css">
+
+  	<!-- Required Modernizr file -->
+  	<script src="modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+      <h1>
+      	Agiles Projektmanagement<br>
+      	<small>Eine Einführung mit SCRUM</small>
+      </h1>
+    </section> 
+
+    <section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-purple">0</b>
+			</div>
+			<h2>
+			    Referenten<br>
+				<small><em>Wer sind wir?</em></small>
+			</h2>
+		</div>
+		<div class="two-columns">
+			<section>
+				<div class="numbered-title">
+					<div class="number large">
+						<i class="icon icon-user bg-blue"></i>
+					</div>
+					<h3 class="vertical-centered">Jakob Reiter</h3>
+				</div>
+				<ul class="large dark-grey">
+					<li>Aus Göttingen</li>
+					<li>Bachelor Wirtschaftsinformatik in Ilmenau im 6. Semester</li>
+					<li>Bereits im Unternehmen im Projektmanagement gearbeitet</li>
+				</ul>
+			</section>
+			<section>
+				<div class="numbered-title">
+					<div class="number large">
+						<i class="icon icon-user bg-blue"></i>
+					</div>
+					<h3 class="vertical-centered">Norris Sam Osarenkhoe</h3>
+				</div>
+				<ul class="large dark-grey">
+					<li>Aus Bramsche</li>
+					<li>Bachelor Wirtschaftsinformatik in Ilmenau im 2. Semester</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-purple">0</b>
+			</div>
+			<h2>
+			    Vorstellung<br>
+				<small><em>Wer seid ihr?</em></small>
+			</h2>
+		</div>
+		<h3 class="grey hero">
+			Wer seid ihr und welche Vorkenntnisse und Erwartungen bringt ihr mit?
+		</h3>
+	</section>
+
+    <section class="slide" id="workshop-timetable">
+    	<div class="numbered-title">
+    		<div class="number">
+    			<b class="bg-green">1</b>
+    		</div>
+    		<h2>
+    		    Einführung <em class="grey">(~50min)</em><br>
+    			<small><em>Was ist agiles Projektmanagement?, Methoden und Tools</em></small>
+    		</h2>
+    	</div>
+    	<div class="break-line"></div>
+    	<div class="numbered-title">
+    		<div class="number">
+    			<b class="bg-red">2</b>
+    		</div>
+    		<h2>
+    		    Vorbereitung <em class="grey">(~50min)</em><br>
+    			<small><em>Teambildung, Ablaufplanung, Projektvorstellung</em></small>
+    		</h2>
+    	</div>
+    	<div class="numbered-title">
+    		<div class="number">
+    			<b class="bg-yellow">3</b>
+    		</div>
+    		<h2>
+    		    Durchführung <em class="grey">(~50min)</em><br>
+    			<small><em>Planung, Durchführung und Abschluss der Sprints</em></small>
+    		</h2>
+    	</div>
+    	<div class="numbered-title">
+    		<div class="number">
+    			<b class="bg-blue">4</b>
+    		</div>
+    		<h2>
+    		    Abschluss <em class="grey">(~15min)</em><br>
+    			<small><em>gemeinsame Feedbackrunde</em></small>
+    		</h2>
+    	</div>
+    </section>
+
+    <section class="slide" id="question">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Projektmanagement</em></small>
+			</h2>
+		</div>
+		<h3 class="grey hero">
+			Welche Schwierigkeiten können Projekte verzögern oder gar scheitern lassen?
+		</h3>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Was ist ein Projekt?</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>Einmaligkeit der Bedingungen</li>
+					<li>Komplexe Aufgabe (Zusammensetzung aus mehreren Teilaufgaben)</li>
+					<li>Mitarbeiter aus unterschiedlichen Fachbereichen vertreten → Teamarbeit notwendig</li>
+					<li>zeitliche, finanzielle, personelle oder andere Begrenzungen</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Was ist Projektmanagement?</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						"Gesamtheit von Führungsaufgaben, -organisation, -techniken und –mitteln für die Abwicklung eines Projektes." <small class="citation">DIN (Hrsg.): Projektwirtschaft. Projektmanagement. Begriffe. DIN 69901. Berlin 1987, S. 1</small>
+					</li>
+					<li>
+						Planung, Steuerung und Kontrolle eines <em>(oder mehrerer)</em> Projekte<em>(s)</em>
+					</li>
+					<li>
+						Organisatorische <em>(im Gegensatz zur fachlich-technischen)</em> Gestaltung
+					</li>
+					<li>
+						Leitung <em>(im Gegensatz zur Ausführung)</em>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Was ist agiles Projektmanagement/Entwicklung?</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						Ziel: Entwicklungsprozess schlanker und flexibler gestalten 
+					</li>
+					<li>
+						Vermeidung von hohem bürokratischem Aufwand, weniger starre Regeln und oft ein iteratives Vorgehen
+					</li>
+					<li>
+						Hauptsächlich in der Softwareentwicklung eingesetzt, aber auch für die Entwicklung andere Produkte geeignet
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Abgrenzung zum klassischem Projektmanagement</em></small>
+			</h2>
+		</div>
+		<div class="two-columns">
+			<section>
+				<h3 class="vertical-centered">Agiles Projektmanagement</h3>
+				<ul class="large dark-grey">
+					<li>Annahme, dass komplexe Projekte nie vollständig im Voraus geplant werden können</li>
+					<li>Aufbrechen starrer Hierarchien, Selbstorganisation im Team</li>
+					<li><em>Geeignet für komplexe Produkte mit unklaren Anforderungen</em></li>
+				</ul>
+			</section>
+			<section>
+				<h3 class="vertical-centered">Klassisches Projektmanagement</h3>
+				<ul class="large dark-grey">
+					<li>Lange Planungsphasen Bestandteil, Veränderungen nach Planungsphase schwierig</li>
+					<li>Stark hierarchisch aufgebaute Projektorganisation</li>
+					<li><em>Geeignet für gut planbare Projekte mit klarem Auftrag</em></li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Agiles Manifest</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						Individuen und Interaktionen wichtiger als Prozesse und Werkzeuge
+					</li>
+					<li>
+						Funktionierendes Produkt wichtiger als umfassende Dokumenation
+					</li>
+					<li>
+						Zusammenarbeit mit dem Kunden wichtiger als Vertragsverhandlung
+					</li>
+					<li>
+						Reagieren auf Veränderungen wichtiger als das Befolgen eines Plans
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Agile Methoden</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						<strong>SCRUM:</strong> <em>leichtes Framework zur Produktentwicklung</em>
+					</li>
+					<li>
+						<strong>Extreme Programming</strong>
+					</li>
+					<li>
+						<strong>Unified Process</strong>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide full-image" style="background-image: url(img/scrum_rugby.jpg)">
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Was ist SCRUM?</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						Projektmanagement Framework zur Erstellung komplexer Produkte
+					</li>
+					<li>
+						empirischer, inkrementeller und iterativer Ansatz
+					</li>
+					<li>
+						Drei wichtige Säulen
+						<ul>
+							<li>
+								Transparenz <em>(Fortschritt&Hindernisse festhalten)</em>
+							</li>
+							<li>
+								Überprüfung <em>(Regelmäßige Lieferung von Bestandteilen)</em>
+							</li>
+							<li>
+								Anpassung <em>(regelmäßige Anpassung der Anforderungen)</em>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Werte (1)</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						<strong>Selbstverpflichtung</strong> <em>(Commitment)</em><br>
+						<small>Sei willens, dich für ein Ziel zu verpflichten</small>
+					</li>
+					<li>
+						<strong>Fokus</strong> <em>(Focus)</em><br>
+						<small>Erledige deine Arbeit und blende alles um dich herum aus</small>
+					</li>
+					<li>
+						<strong>Offenheit</strong> <em>(Openness)</em><br>
+						<small>Alle Informationen für alle sichtbar</small>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Werte (2)</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						<strong>Respekt</strong> <em>(Respect)</em><br>
+						<small>Verschiedene Menschen respektieren und innerhalb eines Teams zusammenhalten</small>
+					</li>
+					<li>
+						<strong>Mut</strong> <em>(Courage)</em><br>
+						<small>Habe Mut bei der Verwirklichung der anderen Werte</small>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide bg-white">
+		<div class="centered">
+			<img src="img/scrum.png">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Sprint</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>SCRUM besteht aus regelmäßigen Iterationen: <strong>Sprints</strong></li>
+					<li>Ziel eines Sprints ist ein fertigs Produktinkrement</li>
+					<li>Dauer eines Sprints variiert von Projekt zu Projekt<br><em>in der Regel wenige Tage bis zu einem Monat</em></li>
+					<li>sollte innerhalb der Woche an einem Dienstag oder Mittwoch beginnen</li>
+				</ul>
+			</section>
+		</div>			
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Sprint</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<ul class="vertical-list intended white">
+				<li class="bg-blue"><h3>Planning</h3></li>
+				<li class="bg-blue"><h3>Arbeit</h3></li>
+				<li class="bg-blue"><h3>...</h3></li>
+				<li class="bg-blue"><h3>Arbeit</h3></li>
+				<li class="bg-blue"><h3>Review</h3></li>
+				<li class="bg-blue"><h3>Retrospective</h3></li>
+			</ul>
+			<ul class="vertical-list intended">
+				<li><h3>Tag 1</h3></li>
+				<li><h3>2</h3></li>
+				<li><h3>...</h3></li>
+				<li><h3>n-1</h3></li>
+				<li><h3>n</h3></li>
+				<li><h3>n</h3></li>
+			</ul>
+		</div>			
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li><strong>Planning:</strong> <em>Zusammenstellen der zu bearbeitenden Elemente</em></li>
+					<li><strong>Review:</strong> <em>Präsentation Ergebnisse und Abnahme durch Product Owner</em></li>
+					<li><strong>Restrospective:</strong> <em>Rückblick auf Sprint zur Prozessverbesserung</em></li>
+				</ul>
+			</section>
+		</div>			
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Rollen</em></small>
+			</h2>
+		</div>			
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li><strong>Scrum Master:</strong> <em>Übergreifende Verantwortung, organisiert Abläufe und Meetings, strebt ständige Optimierung an</em></li>
+					<li><strong>Product Owner:</strong> <em>Vision des Produktes, Begeisterung, trifft fachliche Entscheidungen, beantwortet Fragen</em></li>
+					<li><strong>Entwicklerteam:</strong> <em>funktionsübergreifendes Team zur Bearbeitung der Elemente aus dem Sprint Backlog</em></li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Meetings (1)</em></small>
+			</h2>
+		</div>			
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li><strong>Kick-Off:</strong> <em>sinnvoll am Anfang des Projektes, Vorstellung Produktvision, Teilnehmer: Entwicklungsteam, SCRUM-Master, PO, Key User usw.</em></li>
+					<li><strong>Sprint Planning:</strong> <em>Beginn eines neuen Sprints, Besprechung Arbeit für kommenden Sprint, Dauer fest begrenzt, Klärung der zu bearbeitende Aufgaben und der Vorgehensweise</em></li>
+					<li><strong>Daily Scrum:</strong> <em>tägliche Zusammenkunft des Entwicklerteams, um sich auf den aktuellen Stand zu bringen</em></li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Meetings (2)</em></small>
+			</h2>
+		</div>			
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li><strong>Sprint Review:</strong> <em>Präsentation und Beguachtung der Ergebnisse des Sprints aus Sicht des PO, Abnahme des Ergebnisses</em></li>
+					<li><strong>Retrospektive:</strong> <em>Reflektion der Arbeitsweise im vorangegangenen Sprint, Evaluierung Prozesse und Tools</em></li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Artefakte (1)</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li><strong>User Stories:</strong> <em>Beschreibung der zu erstellenden Funktionen des Produktes</em></li>
+					<li><strong>Product Backlog:</strong> <em>liegt in der Verantwortung des PO, ständig weiterentwickelt, enthält zu bearbeitende Elemente (z.B. User Stories), Elemente sollten sich nach und nach verfeinern</em></li>
+					<li><strong>Sprint Backlog:</strong> <em>Besteht aus den für den Sprint ausgewählten Elementen aus dem Product Backlog, nur Entwicklungsteam darf bearbeiten</em></li>
+					<li><strong>Inkrement:</strong> <em>verköpert Summe aller in den bisherigen Sprints fertiggestellten Inkremente eines Produktes</em></li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Artefakte (2)</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li><strong>Definition of Done:</strong> <em>legt gemeinsame Kriterien fest, die definieren wann eine Teilaufgabe abgeschlossen ist</em></li>
+					<li><strong>Vision:</strong> <em>einziges Element was im agilen Umfeld stabil bleibt und Orientierung und Halt bietet</em></li>
+					<li><strong>Taskboard:</strong> <em>greifbare Visualierung des Sprint Backlogs</em></li>
+					<li><strong>Burndown Chart:</strong> <em>Visualisierung der offenen und abgeschlossenen Aufgaben</em></li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide full-image" style="background-image: url(img/kanban.jpg)">
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>Kanban</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						Methode zur Steuerung von Aufgaben innerhalb eines Prozesses ohne Mitarbeiter zu überfordern und schnelle Releases zu ermöglichen
+					</li>
+					<li>
+						streng genommen Vorgehensmodell aus der Softwareentwicklung, allerdings auch für andere Zwecke nutzbar
+					</li>	
+					<li>
+						Kernideen: Visualize, Limit WIP, Manage Flow, Improve Collaboration, Feedback Loops
+					</li>
+				</ul>
+				<ul class="vertical-list intended white">
+					<li class="bg-blue"><h3>To Do</h3></li>
+					<li class="bg-blue"><h3>In Progress</h3></li>
+					<li class="bg-blue"><h3>Review</h3></li>
+					<li class="bg-blue"><h3>Finished</h3></li>
+				</ul>
+			</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-green">1</b>
+			</div>
+			<h2>
+			    Einführung<br>
+				<small><em>SCRUM - Praxiseinsatz</em></small>
+			</h2>
+		</div>
+		<div class="one-column">
+			<section>
+				<ul class="large dark-grey">
+					<li>
+						hauptsächlich in der Softwareentwicklung eingesetzt, um schnell funktionierende Produkte auszuliefern
+					</li>	
+					<li>
+						Aber auch andere Anwendungen:
+						<ul>
+							<li>Im Automobilbereich bei der Entwicklung komplexer und neuer Produkte</li>
+							<li>Sehr ähnliche Methode bei der Vorbereitung auf einen Einsatz beim amerikanischen Militär</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="centered">
+			<h3 class="hero">Pause<br><small>(~15min)</small></h3>
+		</div>
+	</section>
+
+    <section class="slide" id="teambuilding">
+    	<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Teambildung</em></small>
+			</h2>
+		</div>
+		<h3 class="hero grey">
+			Teams finden und zusammensetzen...
+		</h1>
+	</section>
+
+	<section class="slide" id="project-presentation">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Projektvorstellung</em></small>
+			</h2>
+		</div>
+		<div class="two-columns">
+			<section>
+				<div class="numbered-title">
+					<div class="number large">
+						<i class="icon icon-home bg-blue"></i>
+					</div>
+					<h3 class="vertical-centered">Produkt</h3>
+				</div>
+				<ul class="large dark-grey">
+					<li>Stadt mit einigen Gebäuden</li>
+					<li>gebaut mit LEGO und aus anderen Materialien</li>
+				</ul>
+			</section>
+			<section>
+				<div class="numbered-title">
+					<div class="number large">
+						<i class="icon icon-user bg-blue"></i>
+					</div>
+					<h3 class="vertical-centered">Produkt Manager</h3>
+				</div>
+				<ul class="large dark-grey">
+					<li>Stadt wird nach seinen Wünschen gebaut</li>
+					<li>Während der Durchführung Ansprechpartner für Fragen & Feedback</li>
+				</ul>
+			</section>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-1">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Einstöckige Gebäude</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-home2 xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-2">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Zweistöckige Gebäude</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-home xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-3">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Geschäft</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-cart xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-4">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Schule</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-bulb xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-5">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Kirche</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-bell xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-6">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Krankenhaus</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-ambulance xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-7">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Bushaltestelle</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-truck xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-7">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Kindergarten</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-child xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-8">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Kreuzung</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-road xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="city-elements-9">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Park</em></small>
+			</h2>
+		</div>
+		<div class="centered">
+			<i class="icon icon-sun xxx-large dark-grey"></i>
+		</div>
+	</section>
+
+	<section class="slide" id="estimating">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-red">2</b>
+			</div>
+			<h2>
+			    Vorbereitung<br>
+				<small><em>Zeitabschätzung</em></small>
+			</h2>
+		</div>
+		<div class="slide-content">
+			<h3 class="intended">Ziel: Umfang der einzelnen Aufgaben abschätzen</h3>
+			<h3 class="intended">Umfang der Aufgaben bewerten:</h3>
+			<ul class="vertical-list intended white">
+				<li class="bg-blue"><h3>1</h3></li>
+				<li class="bg-blue"><h3>2</h3></li>
+				<li class="bg-blue"><h3>3</h3></li>
+				<li class="bg-blue"><h3>5</h3></li>
+				<li class="bg-blue"><h3>8</h3></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="slide" id="start-game">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-yellow">3</b>
+			</div>
+			<h2>
+			    Durchführung<br>
+				<small><em>Planung</em></small>
+			</h2>
+		</div>
+		<h3 class="hero grey">
+			Stories für den aktuellen Sprint auswählen
+		</h3>
+	</section>
+
+	<section class="slide" id="timer">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-yellow">3</b>
+			</div>
+			<h2>
+			    Durchführung<br>
+				<small><em>Ausführung</em></small>
+			</h2>
+		</div>
+		<h3 class="hero grey">
+			<div class="countdown">600</div>
+		</h3>
+	</section>
+
+	<section class="slide" id="timer">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-yellow">3</b>
+			</div>
+			<h2>
+			    Durchführung<br>
+				<small><em>Review</em></small>
+			</h2>
+		</div>
+		<h3 class="hero grey">
+			Wo ist meine Stadt?
+		</h3>
+	</section>
+
+	<section class="slide" id="timer">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-blue">4</b>
+			</div>
+			<h2>
+			    Abschluss<br>
+				<small><em>Wie ist SCRUM?</em></small>
+			</h2>
+		</div>
+		<h3 class="hero grey">
+			Wie gefällt auch SCRUM? Was ist euch aufgefallen?
+		</h3>
+	</section>
+
+	<section class="slide" id="timer">
+		<div class="numbered-title">
+		 	<div class="number">
+				<b class="bg-blue">4</b>
+			</div>
+			<h2>
+			    Abschluss<br>
+				<small><em>Vortragsfeedback</em></small>
+			</h2>
+		</div>
+		<h3 class="hero grey">
+			Wie war die Schulung? <br><small>Kritik oder Verbesserungsvorschläge?</small>
+		</h3>
+	</section>
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+
+
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+<script src="main.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>

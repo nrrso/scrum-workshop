@@ -1,0 +1,1 @@
+function tick(e){var t=e.text(),n=t-1;e.text(n);n>0&&(timeout=setTimeout(function(){tick(e)},1e3))}$(document).on("ready",function(){$(".countdown").on("click",function(){if(typeof timeout!="undefined"){$(this).text("600");clearTimeout(timeout);delete timeout}else tick($(this));return!1})});
